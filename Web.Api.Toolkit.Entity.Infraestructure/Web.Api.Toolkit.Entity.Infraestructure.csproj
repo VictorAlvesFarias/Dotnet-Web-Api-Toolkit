@@ -11,5 +11,9 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.36" />
   </ItemGroup>
-	
+
+  <ItemGroup>
+    <ProjectReference Include="..\Web.Api.Toolkit.Entity.Domain\Web.Api.Toolkit.Entity.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
